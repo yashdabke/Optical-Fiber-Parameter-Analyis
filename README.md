@@ -1,4 +1,4 @@
-# Optical Fiber Pulse Propagation Simulation
+# Comprehensive Simulation of Nonlinear Optical Pulse Propagation in Graded-Index Fibers with Polarization Effects
 
 ## Overview
 
