@@ -6,23 +6,32 @@ This MATLAB-based project delves into the intricate simulation of optical pulse 
 
 ## Key Features
 
-1. **NLSE Simulation with Polarization:**
-   - The simulation employs the NLSE to model the nonlinear effects governing optical pulse propagation.
-   - Polarization effects are incorporated to simulate the polarization state evolution during pulse transmission.
+1. **Fiber Parameters:**
+   - Core radius, operating wavelength, numerical aperture, fiber length, amplification length, and speed of light are defined.
 
-2. **Visualization and Analysis:**
-   - Visualizations include the graded refractive index profile, filtered pulse shape, and frequency domain representation, providing insights into the pulse's journey through the fiber.
-   - Temporal evolution analysis showcases how the pulse changes over time during propagation.
+2. **Graded Refractive Index Profile:**
+   - The graded refractive index profile is defined based on the core radius and refractive indices of the core and cladding.
 
-3. **Parameter Display:**
-   - Key parameters such as core radius, wavelength, numerical aperture, and amplification settings are customizable.
-   - The simulation outputs essential details, including pulse duration, bit rate, amplification length, and filter characteristics.
+3. **Pulse Parameters:**
+   - Bit rate, pulse duration, number of bits, and symbol rate are specified.
 
-4. **Validation and Accuracy:**
-   - The simulation incorporates theoretical calculations for pulse broadening, allowing users to validate the accuracy of the simulated results against theoretical expectations.
+4. **Pulse Shaping:**
+   - A Gaussian pulse shape is generated in the time domain.
 
-5. **User-Friendly Interaction:**
-   - Users can easily adjust simulation parameters in the MATLAB script, facilitating exploration and experimentation.
+5. **Narrowband Filtering:**
+   - A narrowband filter is applied to the pulse in the frequency domain.
+
+6. **Propagation through Fiber (NLSE):**
+   - The NLSE is solved numerically for pulse propagation through the fiber, considering polarization effects and amplification.
+
+7. **Plotting:**
+   - Various plots are generated to visualize the graded refractive index profile, filtered pulse shape, pulse propagation through fiber with polarization, frequency domain representation, and spectral phase/intensity before and after propagation.
+
+8. **Additional Results and Validation:**
+   - Displayed pulse and amplification parameters, filter parameters, and performed validation by comparing theoretical and simulated pulse broadening.
+
+9. **NLSE Function Definition:**
+   - The NLSE function (`nlse`) is defined to represent the differential equations governing pulse propagation, including polarization effects and amplification.
 
 ## Usage
 
